@@ -15,11 +15,8 @@ function createTable (size) {
             } else {
                 cell.classList.add("cellDark")
             }
-
-
             row.appendChild(cell);
         }
-
         table.appendChild(row);
     }
     pifagorTable.appendChild(table);
